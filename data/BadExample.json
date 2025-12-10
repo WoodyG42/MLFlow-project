@@ -1,0 +1,36 @@
+{
+  "instances": [
+    {
+      "mean_radius": 1400.0,
+      "mean_texture": 2000.0,
+      "mean_perimeter": 9000.0,
+      "mean_area": 1000000.0,
+      "mean_smoothness": 10.0,
+      "mean_compactness": 15.0,
+      "mean_concavity": 10.0,
+      "mean_concave_points": 5.0,
+      "mean_symmetry": 18.0,
+      "mean_fractal_dimension": 6.0,
+      "radius_error": 50.0,
+      "texture_error": 100.0,
+      "perimeter_error": 300.0,
+      "area_error": 4000.0,
+      "smoothness_error": 0.5,
+      "compactness_error": 2.0,
+      "concavity_error": 2.0,
+      "concave_points_error": 1.0,
+      "symmetry_error": 2.0,
+      "fractal_dimension_error": 0.3,
+      "worst_radius": 1600.0,
+      "worst_texture": 2500.0,
+      "worst_perimeter": 11000.0,
+      "worst_area": 2000000.0,
+      "worst_smoothness": 1.3,
+      "worst_compactness": 2.5,
+      "worst_concavity": 2.0,
+      "worst_concave_points": 1.2,
+      "worst_symmetry": 3.0,
+      "worst_fractal_dimension": 0.8
+    }
+  ]
+}
