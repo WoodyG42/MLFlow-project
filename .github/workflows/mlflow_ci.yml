@@ -20,6 +20,6 @@ jobs:
           pip install -r requirements.txt
           pip install mlflow scikit-learn pandas
 
-      - name: Run training through MLflow (using local env)
+      - name: Run training script directly
         run: |
-          mlflow run . -e train --env-manager=local
+          python src/train.py
