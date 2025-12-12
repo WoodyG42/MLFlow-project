@@ -1,10 +1,5 @@
 name: mlflow_lifecycle_pipeline
 
 entry_points:
-  ingest:
-    command: "python src/ingest.py"
-
   train:
-    parameters:
-      data_path: {type: str, default: "data/breast_cancer.csv"}
-    command: "python src/train.py --data_path {data_path}"
+    command: "python src/train.py"
