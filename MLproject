@@ -1,0 +1,5 @@
+name: mlflow_lifecycle_pipeline
+
+entry_points:
+  train:
+    command: "python src/train.py"
